@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Etch A Sketch - Benjamin Marzecki - The Odin Project</title>
+  </head>
+  <body>
+    <h1>Etch-A-Sketch</h1>
+    <div class="header">
+      <p class="message"></p>
+      <p class="draw"></p>
+      <div class="header_wrapper">
+        <h4>Select the Size of your drawing board -></h4>
+        <button class="pop-up" onclick="getSize()">Select</button>
+      </div>
+      <div class="container"></div>
+      <div class="footer">
+        <button onclick="pickColor(`black`)">Black</button>
+        <button onclick="pickColor(`random`)">Random</button>
+        <button onclick="resetBoard()">Reset Board</button>
+      </div>
+    </div>
+    <script src="/main.js"></script>
+  </body>
+</html>
