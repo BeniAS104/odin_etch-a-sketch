@@ -1,4 +1,4 @@
-<h1>Etch A Sketch App</h1>
+# [Etch A Sketch](http://etchasketch.bendev.dk/)
 A dynamic and interactive Etch A Sketch drawing application developed using HTML, CSS, and JavaScript. Made in mind with The Odin Project Course. <br> This project was undertaken to deepen my understanding of front-end development, with a focus on user interaction and responsive design.
 
 <h2>Project Brief</h2>
