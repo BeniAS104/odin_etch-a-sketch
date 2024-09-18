@@ -13,13 +13,16 @@
       <p class="message"></p>
       <p class="draw"></p>
       <div class="header_wrapper">
-        <h4>Select the Size of your drawing board -></h4>
-        <button class="pop-up" onclick="getSize()">Select</button>
+        <h4>Select the size of your drawing board -></h4>
+        <button class="pop-up">Select</button>
       </div>
       <div class="container"></div>
       <div class="footer">
         <button onclick="pickColor(`black`)">Black</button>
-        <button onclick="pickColor(`random`)">Random</button>
+        <button class="random" onclick="pickColor(`random`)">
+          Randomized Pen Color
+        </button>
+        <button class="random" onclick="pickColor(`eraser`)">Eraser</button>
         <button onclick="resetBoard()">Reset Board</button>
       </div>
     </div>
